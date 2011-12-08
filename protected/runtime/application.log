@@ -1,0 +1,6 @@
+2011/12/08 02:39:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in C:\xampp\htdocs\vgDelivery\framework\web\CWebApplication.php:281
+Stack trace:
+#0 C:\xampp\htdocs\vgDelivery\framework\web\CWebApplication.php(136): CWebApplication->runController('user/admin')
+#1 C:\xampp\htdocs\vgDelivery\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\vgDelivery\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/vgdelivery/index.php?r=user/admin
